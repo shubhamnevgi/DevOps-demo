@@ -22,5 +22,9 @@ If it isn't on newly created branch you can switch to another branch using coman
  Note that changes that we have made is only going to record in branch that we have created before.
 <br>
 Now to update changes in remote repository in GitHub for new branch use command 'git push origin [branch-name]'
-
-
+<br>
+Now on github click on 'compare & pull request'  -> 'create pull request' -> 'merge pull request' -> 'Confirm merge'
+<br>
+To reflect merge changes from github remote repository to local repository,
+<br>
+We simply use command 'git pull origin main' but before that switch to main branch 
