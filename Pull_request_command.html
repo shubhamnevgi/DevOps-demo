@@ -1,0 +1,66 @@
+<p>
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git branch
+* main
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git checkout -b feature1
+Switched to a new branch 'feature1'
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git checkout -b feature2
+Switched to a new branch 'feature2'
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git branch
+  feature1
+* feature2
+  main
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git branch -d feature2
+Deleted branch feature2 (was 846a239).
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git checkout feature1
+Switched to branch 'feature1'
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git branch
+* feature1
+  main
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git status
+On branch feature1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git add .
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git commit -m "Next task guidelines mentioned"
+[feature1 6864ea5] Next task guidelines mentioned
+ 1 file changed, 13 insertions(+)
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git status
+On branch feature1
+nothing to commit, working tree clean
+
+shiva@DESKTOP-RTNKM6F MINGW64 ~/Desktop/Shubham/LAB Practical/TE/DevOps Lab/DevO
+$ git push origin feature1
+
+</p>

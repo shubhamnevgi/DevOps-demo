@@ -19,6 +19,8 @@ Make changes in this newly created branch, before that check current working bra
 <br>
 If it isn't on newly created branch you can switch to another branch using comand 'git checkout [branch-name]'
 <br>
- 
+ Note that changes that we have made is only going to record in branch that we have created before.
+<br>
+Now to update changes in remote repository in GitHub for new branch use command 'git push origin [branch-name]'
 
 
